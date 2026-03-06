@@ -14,7 +14,7 @@ public class DosenMain07 {
         for (int i = 0; i < arrayOfDosen07.length; i++) {
             System.out.println("Masukkan Data Dosen ke-" + (i + 1));
             System.out.print("NIDN                 : " );
-            arrayOfDosen07[i].nidn = sc.nextLine();
+            String nidn = sc.nextLine();
             System.out.print("Nama                 : " );
             arrayOfDosen07[i].nama = sc.nextLine();
             System.out.print("Tahun Masuk          : " );
